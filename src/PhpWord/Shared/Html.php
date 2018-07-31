@@ -598,6 +598,10 @@ class Html
             }
         }
 
+        // SDL
+        // set default cell padding in all table cells
+        $styles['cellMargin'] = 80;
+
         return $styles;
     }
 
